@@ -107,7 +107,6 @@ In fact, **you do not need to change anything else in your code**.
 Currently, PyCave implements three different models:
 
 - [GaussianMixture](https://pycave.borchero.com/sites/generated/bayes/gmm/pycave.bayes.GaussianMixture.html)
-- [MarkovChain](https://pycave.borchero.com/sites/generated/bayes/markov_chain/pycave.bayes.MarkovChain.html)
 - [K-Means](https://pycave.borchero.com/sites/generated/clustering/kmeans/pycave.clustering.KMeans.html)
 
 ## License

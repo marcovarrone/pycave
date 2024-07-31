@@ -22,21 +22,6 @@ Gaussian Mixture
     ~gmm.GaussianMixtureModelConfig
 
 
-Markov Chain
-^^^^^^^^^^^^
-
-.. autosummary::
-    :toctree: generated/bayes/markov_chain
-    :nosignatures:
-    
-    MarkovChain
-
-    :template: classes/pytorch_module.rst
-
-    ~markov_chain.MarkovChainModel
-    ~markov_chain.MarkovChainModelConfig
-
-
 Clustering Models
 -----------------
 
