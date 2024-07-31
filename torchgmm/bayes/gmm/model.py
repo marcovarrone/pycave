@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import Tuple
 import numpy as np
 import torch
-from lightkit.nn import Configurable
+from torchgmm.base.nn import Configurable
 from torch import jit, nn
 from torchgmm.bayes.core import covariance, covariance_shape, CovarianceType
 from torchgmm.bayes.core._jit import jit_log_normal, jit_sample_normal

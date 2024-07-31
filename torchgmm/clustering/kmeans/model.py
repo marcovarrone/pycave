@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Tuple
 import torch
-from lightkit.nn import Configurable
+from torchgmm.base.nn import Configurable
 from torch import jit, nn
 
 
