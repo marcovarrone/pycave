@@ -1,6 +1,6 @@
 import logging
 import warnings
-import lightkit
+import torchgmm.base
 
 # This is taken from PyTorch Lightning and ensures that logging for this package is enabled
 _root_logger = logging.getLogger()
@@ -31,7 +31,7 @@ def set_logging_level(level: int) -> None:
         enabled: Whether to enable logging.
     """
     _logger.setLevel(level)
-    lightkit.set_logging_level(level)
+    torchgmm.base.set_logging_level(level)
 
 
 # Export

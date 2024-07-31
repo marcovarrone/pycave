@@ -3,8 +3,8 @@ import logging
 from typing import Any, cast, List
 import numpy as np
 import torch
-from lightkit import ConfigurableBaseEstimator
-from lightkit.data import DataLoader, dataset_from_tensors
+from torchgmm.base import ConfigurableBaseEstimator
+from torchgmm.base.data import DataLoader, dataset_from_tensors
 from torch.nn.utils.rnn import PackedSequence
 from torch.utils.data import Dataset
 from .lightning_module import MarkovChainLightningModule

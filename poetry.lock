@@ -1353,22 +1353,6 @@ files = [
 ]
 
 [[package]]
-name = "lightkit"
-version = "0.5.0"
-description = "Utilities for PyTorch and PyTorch Lightning."
-optional = false
-python-versions = ">=3.8,<3.11"
-files = [
-    {file = "lightkit-0.5.0-py3-none-any.whl", hash = "sha256:9df330519e3282435b7fd89af5e3ca831ce7c2b2e3d6a1c33a0c0401a30218ab"},
-    {file = "lightkit-0.5.0.tar.gz", hash = "sha256:7792bfa302a0b2b27120f0c6da884fdd779247ee3ed7835ca423a8ef918743b6"},
-]
-
-[package.dependencies]
-numpy = ">=1.20.0,<2.0.0"
-pytorch-lightning = ">=1.5.8,<2.0.0"
-torch = ">=1.8.0,<1.13.0"
-
-[[package]]
 name = "lightning-utilities"
 version = "0.4.2"
 description = "PyTorch Lightning Sample project."
@@ -3494,4 +3478,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.11"
-content-hash = "229bf7907c81ef0a6cd6a80fd6b95c0b63a94402ad18c9a9a6bbdd9280e22446"
+content-hash = "7008098387d8fb92ceb346f2be8caf8fd132c668dd2016346b8cf86c9851473c"

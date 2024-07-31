@@ -2,9 +2,9 @@ from __future__ import annotations
 import logging
 from typing import Any, cast, List
 import torch
-from lightkit import ConfigurableBaseEstimator
-from lightkit.data import collate_tensor, DataLoader, dataset_from_tensors, TensorLike
-from lightkit.estimator import PredictorMixin, TransformerMixin
+from torchgmm.base import ConfigurableBaseEstimator
+from torchgmm.base.data import collate_tensor, DataLoader, dataset_from_tensors, TensorLike
+from torchgmm.base.estimator import PredictorMixin, TransformerMixin
 from .lightning_module import (
     FeatureVarianceLightningModule,
     KMeansLightningModule,

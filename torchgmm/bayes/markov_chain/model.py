@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from typing import overload
 import torch
 import torch._jit_internal as _jit
-from lightkit.nn import Configurable
+from torchgmm.base.nn import Configurable
 from torch import jit, nn
 from torch.nn.utils.rnn import PackedSequence
 
